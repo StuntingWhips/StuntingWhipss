@@ -3,39 +3,59 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Stunting Whips - Car Detailing Bookings</title>
+  <title>Stunting Whips Car Detailing</title>
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <div class="container">
-    <h1>Stunting Whips - Car Detailing Bookings</h1>
-    <form id="bookingForm">
-      <label for="name">Name:</label>
-      <input type="text" id="name" required>
+  <header>
+    <nav>
+      <!-- Add your navigation links here -->
+    </nav>
+  </header>
 
-      <label for="email">Email:</label>
-      <input type="email" id="email" required>
+  <main>
+    <section class="hero">
+      <div class="hero-content">
+        <h1>Stunting Whips Car Detailing</h1>
+        <p>Give your car the luxury treatment it deserves!</p>
+        <a href="#booking" class="btn btn-primary">Book Now</a>
+      </div>
+    </section>
 
-      <label for="phone">Phone:</label>
-      <input type="tel" id="phone" required>
+    <section class="about">
+      <div class="container">
+        <h2>About Us</h2>
+        <p>
+          Stunting Whips Car Detailing is a premium car detailing service that focuses on delivering exceptional results for car owners who seek the best for their vehicles. Our experienced team is dedicated to restoring the shine and glory of your car, both inside and out.
+        </p>
+        <!-- Add more details about your business here -->
+      </div>
+    </section>
 
-      <label for="carModel">Car Model:</label>
-      <input type="text" id="carModel" required>
+    <section id="booking" class="booking">
+      <div class="container">
+        <h2>Book Your Detailing</h2>
+        <form id="bookingForm">
+          <!-- Add your booking form fields here (similar to previous examples) -->
+          <button type="submit">Book Now</button>
+        </form>
+      </div>
+    </section>
 
-      <label for="bookingDate">Booking Date:</label>
-      <input type="date" id="bookingDate" required>
+    <section class="previous-work">
+      <div class="container">
+        <h2>Previous Work</h2>
+        <!-- Add a gallery of previous car detailing work with images -->
+        <!-- Consider using a lightbox or slider for the images -->
+      </div>
+    </section>
+  </main>
 
-      <label for="serviceType">Service Type:</label>
-      <select id="serviceType" required>
-        <option value="" disabled selected>Select Service Type</option>
-        <option value="Basic">Basic Detailing</option>
-        <option value="Premium">Premium Detailing</option>
-        <option value="Full">Full Detailing</option>
-      </select>
-
-      <button type="submit">Book Now</button>
-    </form>
-  </div>
+  <footer>
+    <div class="container">
+      <p>&copy; 2023 Stunting Whips Car Detailing. All rights reserved.</p>
+    </div>
+  </footer>
   <script src="script.js"></script>
 </body>
 </html>
